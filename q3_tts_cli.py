@@ -1,6 +1,6 @@
 #!/usr/bin/env -S uv run
 # /// script
-# requires-python = ">=3.12"
+# requires-python = ">=3.12,<3.14"
 # dependencies = [
 #     "qwen-tts>=0.0.5,<1.0.0",
 #     "torch>=2.4.0,<2.6.0",
