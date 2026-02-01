@@ -360,7 +360,7 @@ If you use this tool in your research or project, please cite:
 ```bibtex
 @software{qwen3_tts_cli,
   title = {Qwen3-TTS CLI: Command-line interface for Qwen3-TTS},
-  author = {Your Name},
+  author = {Riccardo Mazza},
   year = {2026},
   url = {https://github.com/r1cc4rd0m4zz4/qwen3-tts-cli}
 }
