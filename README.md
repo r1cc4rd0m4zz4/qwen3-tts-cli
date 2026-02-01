@@ -22,7 +22,7 @@ A command-line interface for generating high-quality speech using the Qwen3-TTS 
 - **GPU** (recommended): NVIDIA GPU with CUDA support or Apple Silicon with MPS
   - CPU inference is supported but significantly slower
 - **Storage**: ~7GB for model weights (downloaded automatically on first run)
-- **RAM**: Minimum 16GB recommended
+- **RAM**: Minimum 8GB, 16GB recommended
 
 ### External Dependencies
 
@@ -46,12 +46,12 @@ A command-line interface for generating high-quality speech using the Qwen3-TTS 
 
 ## Installation
 
-### One-liner with uvx (Simplest)
+### One-liner with uv (Simplest)
 
 Run directly from the internet without downloading anything:
 
 ```bash
-uvx --script https://raw.githubusercontent.com/r1cc4rd0m4zz4/qwen3-tts-cli/main/q3_tts_cli.py "Hello world" -i "friendly voice"
+uv run https://raw.githubusercontent.com/r1cc4rd0m4zz4/qwen3-tts-cli/refs/heads/master/q3_tts_cli.py "Hello world" -i "friendly voice"
 ```
 
 ### Quick Start by Downloading
