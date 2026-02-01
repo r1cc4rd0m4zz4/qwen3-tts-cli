@@ -22,7 +22,7 @@ A command-line interface for generating high-quality speech using the Qwen3-TTS 
 - **GPU** (recommended): NVIDIA GPU with CUDA support or Apple Silicon with MPS
   - CPU inference is supported but significantly slower
 - **Storage**: ~7GB for model weights (downloaded automatically on first run)
-- **RAM**: Minimum 8GB, 16GB recommended
+- **RAM**: Minimum 16GB recommended
 
 ### External Dependencies
 
